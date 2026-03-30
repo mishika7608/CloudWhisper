@@ -33,7 +33,7 @@ function displayWeather(days) {
 
         card.innerHTML = `
             <h3>${date}</h3>
-            <img src="${iconUrl}" />
+            
             <p>🌡️ Min: ${day.Temperature.Minimum.Value}°C</p>
             <p>🌡️ Max: ${day.Temperature.Maximum.Value}°C</p>
             <p>☀️ Day: ${day.Day.IconPhrase}</p>
